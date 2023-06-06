@@ -5,7 +5,7 @@ Python Script to fetch the Top 5 Pages of your Website (from Google Analytics 4)
 
 ## Prerequisites : 
 
-- Google developer profile : To get one , sign in to your google account and activate it by going to [developers.google.com].
+- Google developer profile : To get one, sign in to your google account and activate it by going to [developers.google.com].
 
 - A google analytics property setup. This can be a blog or a website whose analytics you want to track. If you want to learn more about how to set up google analytics for your website, go to https://support.google.com/analytics/answer/9304153?hl=en.
 
@@ -18,8 +18,8 @@ Python Script to fetch the Top 5 Pages of your Website (from Google Analytics 4)
 `source venv/bin/activate` 
 - Install the requirements from the requirements.txt file
 `pip install -r requirements.txt`
-- Make a folder called `data`, in that folder make a file called `posts.json`. This is where you should get your data after running the script
-- Get your secret key and save it as `service_account.json` in the root of your project directory. You can get the your secret key from https://developers.google.com/analytics/devguides/reporting/data/v1/quickstart-client-libraries. If you want to learn how to step by step, read https://codingaunty.com/google-analytics4-api-setup/
+- Make a folder called `data`, in that folder make a file called `posts.json`. This is where you should get your data after running the script.
+- Get your secret key and save it as `service_account.json` in the root of your project directory. You can get the secret key for your project from https://developers.google.com/analytics/devguides/reporting/data/v1/quickstart-client-libraries. If you want to learn how to step by step, read https://codingaunty.com/google-analytics4-api-setup/
 - Get your property id following the instructions given in the link above. Make a `.env` file in your root directory. In the `.env` file, add : 
 ```
 PROPERTY = 123456789 
