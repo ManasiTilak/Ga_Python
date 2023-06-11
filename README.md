@@ -7,7 +7,7 @@ Python Script to fetch the Top 5 Pages of your Website (from Google Analytics 4)
 
 - Google developer profile : To get one, sign in to your google account and activate it by going to [developers.google.com].
 
-- A google analytics property setup. This can be a blog or a website whose analytics you want to track. If you want to learn more about how to set up google analytics for your website, go to https://support.google.com/analytics/answer/9304153?hl=en.
+- A google analytics property setup. This can be a blog or a website whose analytics you want to track. If you want to learn more about how to set up google analytics for your website, go to the official [google](https://support.google.com/analytics/answer/9304153?hl=en).
 
 -Google Analytics 4 API setup. In order for your python script to work you should have Google Analytics 4 API setup and working for your project. If you want to know how to set up the Google Analytics API for your project, go to https://codingaunty.com/google-analytics4-api-setup/.
 
